@@ -9,7 +9,7 @@ struct LineSegment {
     Point p1, p2;
 };
 
-// Function to calculate cross product of vectors (p1-p0) and (p2-p0)
+// Function to calculate cross product of vectors
 double crossProduct(Point p0, Point p1, Point p2) {
     return (p1.x - p0.x) * (p2.y - p0.y) - (p1.y - p0.y) * (p2.x - p0.x);
 }
@@ -76,7 +76,6 @@ bool doQuadrilateralsIntersect(Point A, Point B, Point C, Point D, Point E, Poin
 }
 
 int main() {
-    // Add coordinates
     Point A, B, C, D, E, F, G, H;
     cout << "Enter coordinates of quadrilateral 1 (A, B, C, D): ";
     cin >> A.x >> A.y >> B.x >> B.y >> C.x >> C.y >> D.x >> D.y;
