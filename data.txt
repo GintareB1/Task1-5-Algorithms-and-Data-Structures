@@ -1,0 +1,19 @@
+Is it an animal?
+Is it a mammal?
+Is it a dog?
+#
+non
+no
+#
+#
+#
+Is it a crab?
+#
+#
+Is it an object?
+Is it electronic?
+Is it a phone?
+#
+#
+#
+#
